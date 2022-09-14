@@ -10,11 +10,5 @@ int main(void)
 	printf("%d & %d = %d \n", num1, num2, result1);
 	printf("%d | %d = %d \n", num1, num2, result2);
 	printf("%d ^ %d = %d \n", num1, num2, result3);
-
-
-
-
-
-
-
+	return 0;
 }
