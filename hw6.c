@@ -1,29 +1,3 @@
-/*
-#include <stdio.h>
-int main(void)
-{
-	int arr[5], i;
-	int oddnum[5], evennum[5];
-	printf("Please input five integers: ");
-	for (i = 0; i < 5; i++)
-	{
-		scanf("%d", &arr[i]);
-
-		if (arr[i] % 2 == 0)
-			evennum[i] += arr[i];
-		else
-			oddnum[i] += arr[i];
-
-	}
-		
-	printf("Odd number: ", oddnum);
-	printf("Even number: ", evennum);  
-	
-	return 0;
-}
-*/
-
-
 #include <stdio.h>
 
 void print_odd(int arr[]);
